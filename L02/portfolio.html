@@ -4,13 +4,37 @@
         <title>Aufgabe.02</title>
         <meta charset="UTF-8">
     </head>
-    <header>
-        <h1>Portfolio</h1>
-    </header>
     <body>
+        <header>
+            <h1>Portfolio</h1>
+            <Nav>
+                <ul>
+                    <li style="display: inline">
+                        <strong>
+                          <a href="#Fotos">Fotografien</a> 
+                        </strong>
+                    </li>
+                    <li style="display: inline">
+                         <strong>
+                             <a href="#Blend">Blender</a>
+                        </strong>
+                    </li>
+                    <li style="display: inline">
+                        <strong>
+                            <a href="#Film">Animatic</a>
+                        </strong>
+                    </li>
+                    <li style="display: inline">
+                        <strong>
+                            <a href="#Musik">Audio</a>
+                        </strong>
+                    </li>
+                </ul>
+            </Nav>
+        </header>
 <h1>Meine Arbeiten</h1>
 <p>Kenntnisse:</p>
-<ul>
+<ol>
     <li>Photoshop</li>
     <li>Illustrator</li>
     <li>InDesign</li>
@@ -18,25 +42,30 @@
     <li>After Effects</li>
     <li>Blender</li>
     <li>Maya</li>
-</ul>
+</ol>
 
-<h2>Fotografien</h2>
+<h2 id="Fotos">Fotografien</h2>
 <image src="hut.jpg" alt= "hut"></image>
 <image src="apfel.jpg" alt= "apfel"></image>
 <br><br>
-<h2>Blender</h2>
+<h2 id="Blend">Blender</h2>
 <image src="katapult.png" alt= "katapult"></image>
 <image src="schwert.png" alt= "schwert"></image>
 <br><br>
-<h2>Animatic</h2>
+<h2 id="Film">Animatic</h2>
 <video width="320" height="240" autoplay>         
     <source src="animatic.mp4" type="video/mp4">
 </video>
+<form action="">
+    <label for="meinung">Wie findet ihr das Video:</label><br>
+    <input type="text" value=":)">
+</form>
 <br><br>
-<h2>Audio</h2>
+<h2 id="Musik">Audio</h2>
 <audio controls>
     <source src="birds.mp3" type="audio/mp3">
 </audio>
+<br><br><br>
     </body>
 
     <footer>
