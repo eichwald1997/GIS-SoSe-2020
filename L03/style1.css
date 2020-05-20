@@ -1,0 +1,82 @@
+body {
+    background-image: url(bg.png);
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kreis{
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    border-radius: 800px;
+    background-color: rgba(121, 167, 79, 0.863);
+    }
+    .kreis h1{
+        padding-top: 450px;
+        text-align: center;
+        font-size: 120px;
+        margin-top: 90px;
+        color: white;
+    }
+    .kreis p{
+        text-align: center;
+        font-size: 31px;
+        margin-top: -70px;
+        color: white;
+    }
+    .kreis img{
+        width: 35px;
+        height: 35px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    .kreis img:hover{
+        width: 50px;
+        height: 40px;
+        margin-left: 2000px;
+        margin-top: 70px;
+    }
+#topnav {
+    padding: 7px;
+    background: rgb(243, 215, 177);
+    position: fixed;
+    top: 0px;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 13px; 
+    font-weight: lighter;
+    border-radius: 0px 0px 3px 3px;
+    right: 10%;
+    }
+    nav a{
+        margin: 1px;
+        text-decoration: none;
+        color: rgb(163, 49, 49);
+        
+    }
+    nav a:hover{
+        color: rgba(41, 119, 41, 0.623);
+    }
+    #aktuell{
+        color: rgba(41, 119, 41, 0.623);
+}
+h2{
+    font-size: 31px;
+    font-weight: inherit;
+    text-decoration: none;
+    margin-top: 30px;
+    color:  rgb(121, 189, 124); 
+}
+img{
+    width: 800px;
+    margin-top: 20px;
+}
