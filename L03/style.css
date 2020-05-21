@@ -16,6 +16,7 @@ body {
         height: 800px;
         border-radius: 800px;
         background-color: rgba(121, 167, 79, 0.863);
+        z-index: 1;
     }
     .kreis h1{
         padding-top: 450px;
@@ -30,17 +31,20 @@ body {
         margin-top: -70px;
         color: white;
     }
-    .kreis img{
+    .Icons img{
+        position: relative;
         width: 35px;
         height: 35px;
         margin-left: 40px;
-        margin-top: 10px;
+        top: -120px;
+        left: -23px;
+        transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+       transition: width 0.5s , height 0.5s;
     }
-    .kreis img:hover{
-        width: 50px;
-        height: 40px;
-        margin-left: 2000px;
-        margin-top: 70px;
+    .Icons :hover{
+       width: 45px;
+       height: 45px;
+        
     }
 
     .inhalt h2{
@@ -91,6 +95,7 @@ img{
     width: 800px;
 }
 Video{
+    margin-top: -130px;
     width: 800px;  
 }
 Audio{
@@ -99,4 +104,9 @@ Audio{
 p{
     margin-top: 80px;
     color: rgb(117, 117, 117);
+}
+
+.Kommentar{
+    margin-top: -70px;
+    margin-bottom: 80px;
 }
