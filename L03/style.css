@@ -43,9 +43,7 @@ body {
     }
     .Icons :hover{
        width: 45px;
-       height: 45px;
-       z-index: 100;
-        
+       height: 45px;        
     }
 
     .inhalt h2{
