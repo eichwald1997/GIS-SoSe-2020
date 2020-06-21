@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node GIS-SoSe-2020/L08/script.js"
+    "start": "node L08/script.js"
   },
   "repository": {
     "type": "git",
