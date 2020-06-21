@@ -1,181 +1,176 @@
 [
-
-
     {
-    "bild": "baum.jpg",
-    "titel": "Baum",
-    "text": "Baumgemälde in Braun- und Goldtönen",
-    "preis": 50,
-    "kat": "gemälde"
+        "bild": "pics/baum.jpg",
+        "titel": "Baum",
+        "text": "Baumgemälde in Braun- und Goldtönen",
+        "preis": 50,
+        "kat": "gemälde"
     },
     {
-    "bild": "feder.jpg",
-    "titel": "Feder",
-    "text": "Schwarzgoldenes Federmotiv",
-    "preis": 55,
-    "kat": "gemälde"
+        "bild": "pics/feder.jpg",
+        "titel": "Feder",
+        "text": "Schwarzgoldenes Federmotiv",
+        "preis": 55,
+        "kat": "gemälde"
     },
     {
-    "bild": "dreieck.jpg",
-    "titel": "4 Gemälde in verschiedenen Grüntönen",
-    "preis": 150,
-    "kat": "gemälde"
+        "bild": "pics/dreieck.jpg",
+        "titel": "4 Gemälde in verschiedenen Grüntönen",
+        "preis": 150,
+        "kat": "gemälde"
     },
     {
-    "bild": "fluegel g.jpg",
-    "titel": "Goldene Flügel",
-    "text": "Goldene Flügel auf einem Marmorhintergrund",
-    "preis": 60,
-    "kat": "gemälde"
+        "bild": "pics/fluegel g.jpg",
+        "titel": "Goldene Flügel",
+        "text": "Goldene Flügel auf einem Marmorhintergrund",
+        "preis": 60,
+        "kat": "gemälde"
     },
     {
-    "bild": "fluegel.jpg",
-    "titel": "Flügel",
-    "text": "Goldene Flügel auf schwarzen Hintergrund",
-    "preis": 70,
-    "kat": "gemälde"
+        "bild": "pics/fluegel.jpg",
+        "titel": "Flügel",
+        "text": "Goldene Flügel auf schwarzen Hintergrund",
+        "preis": 70,
+        "kat": "gemälde"
     },
     {
-    "bild": "gruen.jpg",
-    "titel": "Grüner Drilling",
-    "text": "3 dekorative Gemälde mit Trendmuster",
-    "preis": 150,
-    "kat": "gemälde"
+        "bild": "pics/gruen.jpg",
+        "titel": "Grüner Drilling",
+        "text": "3 dekorative Gemälde mit Trendmuster",
+        "preis": 150,
+        "kat": "gemälde"
     },
     {
-    "bild": "indianer.jpg",
-    "titel": "Indiander",
-    "text": "Indianerfigur mit Goldakzenten",
-    "preis": 60,
-    "kat": "gemälde"
+        "bild": "pics/indianer.jpg",
+        "titel": "Indiander",
+        "text": "Indianerfigur mit Goldakzenten",
+        "preis": 60,
+        "kat": "gemälde"
     },
     {
-    "bild": "lips.jpg",
-    "titel": "Lips",
-    "text": "Schwarze Lippen mit Dollarmotiv",
-    "preis": 50,
-    "kat": "gemälde"
+        "bild": "pics/lips.jpg",
+        "titel": "Lips",
+        "text": "Schwarze Lippen mit Dollarmotiv",
+        "preis": 50,
+        "kat": "gemälde"
     },
     {
-    "bild": "popart.jpg",
-    "titel": "Popart",
-    "text": "Popart Gemälde mit einem Spruch",
-    "preis": 65,
-    "kat": "gemälde"
+        "bild": "pics/popart.jpg",
+        "titel": "Popart",
+        "text": "Popart Gemälde mit einem Spruch",
+        "preis": 65,
+        "kat": "gemälde"
     },
     {
-    "bild": "sw.jpg",
-    "titel": "S/W",
-    "text": "2 minimalistische s/w Gemälde",
-    "preis": 90,
-    "kat": "gemälde"
+        "bild": "pics/sw.jpg",
+        "titel": "S/W",
+        "text": "2 minimalistische s/w Gemälde",
+        "preis": 90,
+        "kat": "gemälde"
     },
     {
-    "bild": "tuerkis.jpg",
-    "titel": "Türkis",
-    "text": "Gemälde Türkistönen und Goldakzenten",
-    "preis": 75,
-    "kat": "gemälde"
+        "bild": "pics/tuerkis.jpg",
+        "titel": "Türkis",
+        "text": "Gemälde Türkistönen und Goldakzenten",
+        "preis": 75,
+        "kat": "gemälde"
     },
     {
-    "bild": "weiß.jpg",
-    "titel": "Weiß",
-    "text": "Baumgemälde in Braun- und Goldtönen",
-    "preis": 50,
-    "kat": "gemälde"
-    },
-
-
-
-    {
-    "bild": "herz.jpg",
-    "titel": "Herz",
-    "text": "Eine realistische Herzvase",
-    "preis": 40,
-    "kat": "skulpturen"
+        "bild": "pics/weiß.jpg",
+        "titel": "Weiß",
+        "text": "Baumgemälde in Braun- und Goldtönen",
+        "preis": 50,
+        "kat": "gemälde"
     },
     {
-    "bild": "hirsch.jpg",
-    "titel": "Hirsch",
-    "text": "Eine abstrakte eisenskulptur eines Hirsches",
-    "preis": 70,
-    "kat": "skulpturen"
+        "bild": "pics/herz.jpg",
+        "titel": "Herz",
+        "text": "Eine realistische Herzvase",
+        "preis": 40,
+        "kat": "skulpturen"
     },
     {
-    "bild": "perle.jpg",
-    "titel": "Baum",
-    "text": "Abstrachierte Muschel mit Goldakzenten",
-    "preis": 50,
-    "kat": "skulpturen"
+        "bild": "pics/hirsch.jpg",
+        "titel": "Hirsch",
+        "text": "Eine abstrakte eisenskulptur eines Hirsches",
+        "preis": 70,
+        "kat": "skulpturen"
     },
     {
-    "bild": "koerper.jpg",
-    "titel": "Körper",
-    "text": "Figuren die als Vase genutzt werden können",
-    "preis": 15,
-    "kat": "skulpturen"
+        "bild": "pics/perle.jpg",
+        "titel": "Baum",
+        "text": "Abstrachierte Muschel mit Goldakzenten",
+        "preis": 50,
+        "kat": "skulpturen"
     },
     {
-    "bild": "filz.jpg",
-    "titel": "Filzfigur",
-    "text": "Handgemachte vierbeinige Filzfigur",
-    "preis": 90,
-    "kat": "skulpturen"
+        "bild": "pics/koerper.jpg",
+        "titel": "Körper",
+        "text": "Figuren die als Vase genutzt werden können",
+        "preis": 15,
+        "kat": "skulpturen"
     },
     {
-    "bild": "elefant.jpg",
-    "titel": "Baum",
-    "text": "Aneinanderreihung von Elefantenköpfen",
-    "preis": 150,
-    "kat": "skulpturen"
+        "bild": "pics/filz.jpg",
+        "titel": "Filzfigur",
+        "text": "Handgemachte vierbeinige Filzfigur",
+        "preis": 90,
+        "kat": "skulpturen"
     },
     {
-    "bild": "gold.jpg",
-    "titel": "Goldschalen",
-    "text": "Schalen auf Beton mit vergoldeter Innenseite",
-    "preis": 150,
-    "kat": "skulpturen"
+        "bild": "pics/elefant.jpg",
+        "titel": "Baum",
+        "text": "Aneinanderreihung von Elefantenköpfen",
+        "preis": 150,
+        "kat": "skulpturen"
     },
     {
-    "bild": "holz.jpg",
-    "titel": "Holzgesicht",
-    "text": "Holzstamm mit Gesicht als Blickfang",
-    "preis": 180,
-    "kat": "skulpturen"
+        "bild": "pics/gold.jpg",
+        "titel": "Goldschalen",
+        "text": "Schalen auf Beton mit vergoldeter Innenseite",
+        "preis": 150,
+        "kat": "skulpturen"
     },
     {
-    "bild": "kugel.jpg",
-    "titel": "Scheibe",
-    "text": "Gespaltene Scheibe mit schwarzer Kugel",
-    "preis": 200,
-    "kat": "skulpturen"
+        "bild": "pics/holz.jpg",
+        "titel": "Holzgesicht",
+        "text": "Holzstamm mit Gesicht als Blickfang",
+        "preis": 180,
+        "kat": "skulpturen"
     },
     {
-    "bild": "skulp.jpg",
-    "titel": "Griechischer Kopf",
-    "text": "Griechische Büste",
-    "preis": 90,
-    "kat": "skulpturen"
+        "bild": "pics/kugel.jpg",
+        "titel": "Scheibe",
+        "text": "Gespaltene Scheibe mit schwarzer Kugel",
+        "preis": 200,
+        "kat": "skulpturen"
     },
     {
-    "bild": "zebra.jpg",
-    "titel": "Zebra",
-    "text": "Aneinanderreihung von Zebraköpfen",
-    "preis": 150,
-    "kat": "skulpturen"
+        "bild": "pics/skulp.jpg",
+        "titel": "Griechischer Kopf",
+        "text": "Griechische Büste",
+        "preis": 90,
+        "kat": "skulpturen"
     },
     {
-    "bild": "vase.kopf.jpg",
-    "titel": "Vase mit Gesicht",
-    "text": "Vase in Wickeloptik und einem Gesichtsakzent",
-    "preis": 90,
-    "kat": "skulpturen"
+        "bild": "pics/zebra.jpg",
+        "titel": "Zebra",
+        "text": "Aneinanderreihung von Zebraköpfen",
+        "preis": 150,
+        "kat": "skulpturen"
     },
     {
-    "bild": "vogel.jpg",
-    "titel": "Vögel",
-    "text": "Eisenmaske welche sich optisch in Vögel auflöst",
-    "preis": 165,
-    "kat": "skulpturen"
+        "bild": "pics/vase.kopf.jpg",
+        "titel": "Vase mit Gesicht",
+        "text": "Vase in Wickeloptik und einem Gesichtsakzent",
+        "preis": 90,
+        "kat": "skulpturen"
+    },
+    {
+        "bild": "pics/vogel.jpg",
+        "titel": "Vögel",
+        "text": "Eisenmaske welche sich optisch in Vögel auflöst",
+        "preis": 165,
+        "kat": "skulpturen"
     }
 ]
