@@ -1,3 +1,7 @@
+
+//Teilaufgabe 2 habe ich leider immer noch nicht hinbekommen, ich habe mich wirklich angestrengt und bin letzendlich doch verzweifelt.
+
+
 if (!localStorage.getItem("Warenkorb")) {
     localStorage.setItem("Warenkorb", "[]");        
 }
