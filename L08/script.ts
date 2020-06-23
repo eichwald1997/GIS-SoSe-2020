@@ -1,19 +1,40 @@
-namespace Aufgabe08 {
+import * as Http from "http";
 
-    document.getElementById("send")?.addEventListener("click", handleButton);
+export namespace A08Server {
+  //Konsolen Ausgabe, dass der Server startet.
+  console.log("Starting server"); 
+  //Port wird als Variable typ number gespeichert.
+  let port: number = Number(process.env.PORT);
+  //Wenn es keinen Port gibt, dann setzt er ihn auf 8100.
+  if (!port)
+    port = 8100;
 
-    function handleButton(): void {
-        let formData: FormData = new FormData(document.forms[0]);
-        let url: string = "https://marysose2020.herokuapp.com/";
-        let query: URLSearchParams = new URLSearchParams(<any> formData);
-        url = url + "?" + query.toString();
-        communicate(url);
-    } 
+  //Server wird als Variable typ Http.Server gespeichert.
+  let server: Http.Server = Http.createServer();
+  //Handler werden dem Server als Listener hinzugefügt.
+  server.addListener("request", handleRequest);
+  server.addListener("listening", handleListen);
+  //Server hört den Port ab.
+  server.listen(port);
 
-    async function communicate(_url: RequestInfo): Promise<void> {
-        let resp: Response = await fetch(_url, { method: "get" });
-        let resp2: String = await resp.text();
-        console.log(resp2);
-      }
+  //Konsole gibt beim Aufruf "Listening" aus.
+  function handleListen(): void {
+    console.log("Listening");
+  }
 
+  function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerResponse): void {
+    //Konsole gibt beim Aufruf "I hear voices!" aus.
+    console.log("I hear voices!");
+
+    //Parameter werden für die Response festgelegt.
+    _response.setHeader("content-type", "text/html; charset=utf-8");
+    _response.setHeader("Access-Control-Allow-Origin", "*");
+
+    //URL wird ausgegeben.
+    _response.write(_request.url);
+    console.log(_request.url);
+
+    //Response wird beendet.
+    _response.end();
+  }
 }

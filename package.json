@@ -1,8 +1,10 @@
 {
-  "name": "GIS-SoSe-2020",
+  "name": "marylin20",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "start": "node L08/script.js"
   },
@@ -10,14 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/eichwald1997/GIS-SoSe-2020.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "marylin eichwald",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eichwald1997/GIS-SoSe-2020/issues"
   },
-  "homepage": "https://github.com/eichwald1997/GIS-SoSe-2020#readme",
-  "dependencies": {
-    "@types/node": "^14.0.13"
-  }
+  "homepage": "https://github.com/eichwald1997/GIS-SoSe-2020#readme"
 }
