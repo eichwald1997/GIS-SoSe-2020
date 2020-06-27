@@ -31,6 +31,9 @@ export namespace L09 {
     _response.setHeader("content-type", "text/html; charset=utf-8");
     _response.setHeader("Access-Control-Allow-Origin", "*");
 
+    
+    
+    //Hierbei habe ich mir etwas Hilfe geholt.
     if (_request.url) {
       let urlQuery: Url.UrlWithParsedQuery  = Url.parse(_request.url, true);
       console.log(urlQuery.query);
