@@ -39,8 +39,8 @@ var L09;
                 }
             }
             else if (track == "/json") {
-                let jsonAusgabe = JSON.stringify(url.query);
-                _response.write(jsonAusgabe);
+                let reqJson = JSON.stringify(url.query);
+                _response.write(reqJson);
             }
         }
         //Response wird beendet.

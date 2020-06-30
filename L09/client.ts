@@ -43,8 +43,8 @@ export namespace L09 {
         }
       }
       else if (track == "/json") {
-        let jsonAusgabe: string = JSON.stringify(url.query);
-        _response.write(jsonAusgabe);
+        let reqJson: string = JSON.stringify(url.query);
+        _response.write(reqJson);
       }
     }
 
