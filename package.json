@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "start": "node L09/script.js"
+    "start": "node L09/client.js"
   },
   "repository": {
     "type": "git",

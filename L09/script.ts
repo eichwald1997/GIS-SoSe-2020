@@ -1,52 +1,46 @@
-import * as Http from "http";
-import * as Url from "url";
 
-export namespace L09 {
-  //Konsolen Ausgabe, dass der Server startet.
-  console.log("Starting server"); 
-  //Port wird als Variable typ number gespeichert.
-  let port: number = Number(process.env.PORT);
-  //Wenn es keinen Port gibt, dann setzt er ihn auf 8100.
-  if (!port)
-    port = 8100;
 
-  //Server wird als Variable typ Http.Server gespeichert.
-  let server: Http.Server = Http.createServer();
-  //Handler werden dem Server als Listener hinzugefügt.
-  server.addListener("request", handleRequest);
-  server.addListener("listening", handleListen);
-  //Server hört den Port ab.
-  server.listen(port);
+namespace L09 {
 
-  //Konsole gibt beim Aufruf "Listening" aus.
-  function handleListen(): void {
-    console.log("Listening");
-  }
+let htmlAusgabe: HTMLButtonElement = <HTMLButtonElement>document.getElementById("reqHtml");
+htmlAusgabe.addEventListener("click", requestHtml);
 
-  function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerResponse): void {
-    //Konsole gibt beim Aufruf "I hear voices!" aus.
-    console.log("I hear voices!");
+let jsonAusgabe: HTMLButtonElement = <HTMLButtonElement>document.getElementById("reqJson");
+jsonAusgabe.addEventListener("click", requestJson);
 
-    //Parameter werden für die Response festgelegt.
-    _response.setHeader("content-type", "text/html; charset=utf-8");
-    _response.setHeader("Access-Control-Allow-Origin", "*");
+async function requestHtml(): Promise<void> {
+    let formData: FormData = new FormData(document.forms[0]);
+    let url: string = "https://marysose2020.herokuapp.com/";
+    url += "/html";
+    let query: URLSearchParams = new URLSearchParams(<any>formData);
+    url = url + "?" + query.toString();
+    await fetch(url);
 
-    
-    
-    //Hierbei habe ich mir etwas Hilfe geholt.
-    if (_request.url) {
-      let urlQuery: Url.UrlWithParsedQuery  = Url.parse(_request.url, true);
-      console.log(urlQuery.query);
-      for (let key in urlQuery.query) {
-        _response.write(key + ":" + urlQuery.query[key] + "<br/>");
-      }
-      _response.write("###");
-      let jsonURL: string = JSON.stringify(urlQuery.query);
-      _response.write(jsonURL);
-    }
+    let response: Response = await fetch(url);
+    let responseText: string = await response.text();
+    let responseClient: HTMLElement = <HTMLElement>document.getElementById("answerField");
+    responseClient.innerHTML = responseText;
 
-    //Response wird beendet.
-    _response.end();
+    let text: HTMLDivElement = document.createElement("p");
+    text.setAttribute("class", "Json");
+    text.innerHTML = "Konsolenausgabe wurde erstellt!";
+    document.getElementById("console")?.appendChild(text);
 
-  }
+
+}
+
+async function requestJson(): Promise<void> {
+
+    let formData: FormData = new FormData(document.forms[0]);
+    let url: string = "https://marysose2020.herokuapp.com/";
+    url += "/json";
+    let query: URLSearchParams = new URLSearchParams(<any>formData);
+    url = url + "?" + query.toString();
+    await fetch(url);
+
+    let response: Response = await fetch(url);
+    let responseText: string = await response.json();
+    console.log(responseText);
+}
+
 }
