@@ -106,3 +106,11 @@ MongoDB/4.2.8/.DS_Store
 .DS_Store
 .DS_Store
 .DS_Store
+node_modules/@types/bson/index.d.ts
+node_modules/@types/bson/LICENSE
+node_modules/@types/bson/package.json
+node_modules/@types/bson/README.md
+node_modules/@types/mongodb/index.d.ts
+node_modules/@types/mongodb/LICENSE
+node_modules/@types/mongodb/package.json
+node_modules/@types/mongodb/README.md
